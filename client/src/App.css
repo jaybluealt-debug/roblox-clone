@@ -1,0 +1,76 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.app-header button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.app-header button:hover {
+  background-color: #764ba2;
+}
+
+.app-main {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+}
+
+.menu h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.menu p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.menu button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.menu button:hover {
+  background-color: #764ba2;
+}
